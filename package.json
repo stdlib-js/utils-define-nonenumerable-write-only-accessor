@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-define-nonenumerable-write-only-accessor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Define a non-enumerable write-only accessor.",
   "license": "Apache-2.0",
   "author": {
