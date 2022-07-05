@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,21 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var defineProperty = require( '@stdlib/utils-define-property' );
+import { PropertyName } from '@stdlib/types/object';
 
-
-// MAIN //
+/**
+* Setter function.
+*
+* @param value - property value
+*/
+type Setter = ( x: any ) => void;
 
 /**
 * Defines a non-enumerable write-only accessor.
 *
-* @param {Object} obj - object on which to define the property
-* @param {(string|symbol)} prop - property name
-* @param {Function} setter - accessor
+* ## Notes
+*
+* -   Non-enumerable write-only accessors are non-configurable.
+*
+* @param obj - object on which to define the property
+* @param prop - property name
+* @param setter - accessor
 *
 * @example
 * var obj = {};
@@ -44,15 +52,9 @@ var defineProperty = require( '@stdlib/utils-define-property' );
 *
 * obj.foo = 'beep';
 */
-function setNonEnumerableWriteOnlyAccessor( obj, prop, setter ) { // eslint-disable-line id-length
-	defineProperty( obj, prop, {
-		'configurable': false,
-		'enumerable': false,
-		'set': setter
-	});
-}
+declare function setNonEnumerableWriteOnlyAccessor( obj: any, prop: PropertyName, setter: Setter ): void; // tslint:disable-line: max-line-length
 
 
 // EXPORTS //
 
-module.exports = setNonEnumerableWriteOnlyAccessor;
+export = setNonEnumerableWriteOnlyAccessor;
