@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-define-nonenumerable-write-only-accessor",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Define a non-enumerable write-only accessor.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/types": "^0.0.14",
-    "@stdlib/utils-define-property": "^0.0.9"
+    "@stdlib/utils-define-property": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.0.12",
