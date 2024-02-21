@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-define-nonenumerable-write-only-accessor",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Define a non-enumerable write-only accessor.",
   "license": "Apache-2.0",
   "author": {
@@ -37,15 +37,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/types": "^0.3.1",
+    "@stdlib/types": "^0.3.2",
     "@stdlib/utils-define-property": "^0.2.0"
   },
   "devDependencies": {
-    "@stdlib/utils-keys": "^0.1.0",
+    "@stdlib/utils-keys": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.1.2"
+    "@stdlib/bench-harness": "^0.2.0"
   },
   "engines": {
     "node": ">=0.10.0",
