@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import setNonEnumerableWriteOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-write-only-accessor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-nonenumerable-write-only-accessor/tags). For example,
+
+```javascript
 import setNonEnumerableWriteOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-write-only-accessor@v0.2.2-esm/index.mjs';
 ```
 
@@ -97,7 +102,7 @@ var bool = ( val === 'boop' );
 <body>
 <script type="module">
 
-import setNonEnumerableWriteOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-write-only-accessor@v0.2.2-esm/index.mjs';
+import setNonEnumerableWriteOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-write-only-accessor@esm/index.mjs';
 
 function Foo( secret ) {
     if ( !(this instanceof Foo) ) {
