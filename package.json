@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/types": "^0.3.2",
+    "@stdlib/types": "^0.4.1",
     "@stdlib/utils-define-property": "^0.2.4"
   },
   "devDependencies": {
