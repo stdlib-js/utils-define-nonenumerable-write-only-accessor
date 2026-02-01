@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import setNonEnumerableWriteOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-write-only-accessor@esm/index.mjs';
+import setNonEnumerableWriteOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-write-only-accessor@v0.2.3-esm/index.mjs';
 ```
 
 #### setNonEnumerableWriteOnlyAccessor( obj, prop, setter )
@@ -97,7 +97,7 @@ var bool = ( val === 'boop' );
 <body>
 <script type="module">
 
-import setNonEnumerableWriteOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-write-only-accessor@esm/index.mjs';
+import setNonEnumerableWriteOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-write-only-accessor@v0.2.3-esm/index.mjs';
 
 function Foo( secret ) {
     if ( !(this instanceof Foo) ) {
