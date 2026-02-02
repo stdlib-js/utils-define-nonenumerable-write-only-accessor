@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-define-property": "^0.2.4"
+    "@stdlib/utils-define-property": "^0.2.5"
   },
   "devDependencies": {
     "@stdlib/utils-keys": "^0.2.2",
