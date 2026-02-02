@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-define-property": "^0.2.5"
+    "@stdlib/utils-define-property": "^0.2.5",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/utils-keys": "^0.2.2",
